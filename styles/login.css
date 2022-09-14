@@ -1,0 +1,95 @@
+header {
+    background-color: #5ccfbe;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+header > div {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+h1 {
+    color: #fff;
+    font-size: 20px;
+}
+header > div > a {
+    background-color: #23272a;
+    color: #fff;
+    font-weight: 600;
+    padding: 3px 10px;
+    border-radius: 10px;
+    transition: 500ms;
+}
+header > div > a:hover{
+    background-color: #fff;
+    color: #23272a;
+}
+.container {
+    display: flex;
+    width: 768px;
+    height: 400px;
+    margin: 50px auto;
+    border-radius: 10px;
+    border: solid 1px #23272a5d;
+    position: relative;
+}
+.container > div {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 50%;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.container > div > input, button {
+    height: 40px;
+    border-radius: 10px;
+    border: solid 2px #23272a5d;
+    padding: 0 10px;
+}
+.bloco {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-color: #5ccfbe;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 600;
+    transition: 500ms;
+}
+.mudar {
+    right: 0;
+}
+.btn_mudar {
+cursor: pointer;
+background-color: #23272a;
+width: max-content;
+padding: 5px 10px;
+border-radius: 8px;
+}
+.bloco_cadastro {
+    display: none;
+    flex-direction: column;
+    gap: 20px;
+}
+.bloco_login {
+    display: none;
+    flex-direction: column;
+    gap: 20px;
+}
+.mostrar {
+    display: flex;
+}
+button {
+    cursor: pointer;
+    transition: 500ms;
+    font-weight: 600;
+}
+button:hover {
+    background-color: #23272a;
+    color: #fff;
+}

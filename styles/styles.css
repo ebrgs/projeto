@@ -1,0 +1,97 @@
+header {
+    background-color: #5ccfbe;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+header > div {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+h1 {
+    color: #fff;
+    font-size: 20px;
+}
+header > div > a {
+    background-color: #23272a;
+    color: #fff;
+    font-weight: 600;
+    padding: 3px 10px;
+    border-radius: 10px;
+    transition: 500ms;
+}
+header > div > a:hover{
+    background-color: #fff;
+    color: #23272a;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 40px auto;
+}
+
+#filtro {
+    margin-bottom: 20px;
+}
+#filtro > select {
+    width: 45%;
+    height: 40px;
+    border: solid 2px #23272a;
+    border-radius: 8px;
+}
+#filtro > input {
+    width: 45%;
+    height: 40px;
+    padding: 0 10px;
+    border: solid 2px #23272a;
+    border-radius: 8px;
+}
+#filtro > button {
+    height: 40px;
+    padding: 0 20px;
+    border: solid 2px #23272a;
+    border-radius: 8px;
+}
+#container {
+    display: flex;
+    justify-content: space-between;
+}
+#container > aside {
+    width: 15%;
+}
+#container > aside > input{
+    margin-top: 20px;
+    width: 100%;
+}
+#container > aside > div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#container > ul {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+#container > ul > li {
+    max-width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 500ms;
+}
+#container > ul > li > img {
+    width: 150px;
+    height: 150px;
+}
+#container > ul > li:hover {
+    box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.5);
+}
