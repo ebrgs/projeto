@@ -82,3 +82,24 @@ ul > li > div {
     flex-direction: column;
     gap: 10px;
 }
+.cadastrar {
+    border: solid 1px #23272a5d;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+.cadastrar > a {
+    background-color: #23272a;
+    color: #fff;
+    font-weight: 600;
+    padding: 3px 10px;
+    border-radius: 10px;
+    transition: 500ms;
+}
+.cadastrar > a:hover {
+    background-color: #fff;
+    color: #23272a;
+}

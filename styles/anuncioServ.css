@@ -1,0 +1,72 @@
+header {
+    background-color: #5ccfbe;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+header > div {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+h1 {
+    color: #fff;
+    font-size: 20px;
+}
+header > div > a {
+    background-color: #23272a;
+    color: #fff;
+    font-weight: 600;
+    padding: 3px 10px;
+    border-radius: 10px;
+    transition: 500ms;
+}
+header > div > a:hover{
+    background-color: #fff;
+    color: #23272a;
+}
+main {
+    width: 60%;
+    display: flex;
+    margin: 50px auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.inputs {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 15px;
+}
+.inputs > input {
+    height: 30px;
+    border-radius: 5px;
+    border: solid 1px #23272a5e;
+    padding: 3px;
+}
+.imagens {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.imagens > img {
+    width: 450px;
+}
+.cadastrar {
+    height: 30px;
+    width: 100%;
+    background-color: #23272a;
+    border-radius: 8px;
+    border: solid 2px transparent;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 600;
+    transition: 250ms;
+    margin-top: 20px;
+}
+.cadastrar:hover {
+    background-color: #fff;
+    color: #23272a;
+    border: solid 1px #23272a5e;
+}

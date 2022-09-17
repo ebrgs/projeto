@@ -1,0 +1,81 @@
+header {
+    background-color: #5ccfbe;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+header > div {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+h1 {
+    color: #fff;
+    font-size: 20px;
+}
+header > div > a {
+    background-color: #23272a;
+    color: #fff;
+    font-weight: 600;
+    padding: 3px 10px;
+    border-radius: 10px;
+    transition: 500ms;
+}
+header > div > a:hover{
+    background-color: #fff;
+    color: #23272a;
+}
+main {
+    width: 50%;
+    margin: 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.descs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.images {
+    background-color: #e5e5e5;
+    width: 55%;
+    height: 250px;
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputs > input {
+    height: 30px;
+    border-radius: 5px;
+    border: solid 1px #23272a5e;
+    padding: 3px;
+}
+textarea {
+    border-radius: 5px;
+    border: solid 1px #23272a5e;
+    padding: 3px;
+}
+#anunciar {
+    height: 30px;
+    width: 100%;
+    background-color: #23272a;
+    border-radius: 8px;
+    border: solid 2px transparent;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 600;
+    transition: 250ms;
+}
+#anunciar:hover {
+    background-color: #fff;
+    color: #23272a;
+    border: solid 1px #23272a5e;
+}
